@@ -1,0 +1,25 @@
+{
+  "name": "png3",
+  "version": "0.0.1",
+  "description": "PNG encoder/decoder",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rolldown -c",
+    "test": "vitest"
+  },
+  "keywords": [
+    "png"
+  ],
+  "author": "boereh",
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "jiti": "^2.4.2",
+    "rolldown": "1.0.0-beta.21",
+    "rolldown-plugin-dts": "^0.13.13",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
